@@ -1,0 +1,15 @@
+development:
+  facebook_key: '966224290060078'
+  facebook_secret: 'cb63947a4366bcbb058bf229e6e68149'
+
+  twitter_key: SmW148wjfkjpsAbmmQZsMNnqE
+  twitter_secret: Gl572VxKi2ZDPYJH4TLLRCPGg5Zpqn9gv1kHRZXIkj0QH2T89g
+
+  github_key: af691ccf5d95832e9732
+  github_secret: c9e1a77ee29efa4a9b92ef0c39c473e60256fee3
+
+  linkedin_key: 753vds0koumks8
+  linkedin_secret: K3IKYTPa3b6Tqmb4
+
+  google_key: 1063406316890-f22blno087ag77k75ackkend63098b6h.apps.googleusercontent.com
+  google_secret: 8bm1gdM0IKk94M-D6IEqKuZr
