@@ -10,10 +10,9 @@ module IdolBooks
   class Application < Rails::Application
     social_keys = File.join(Rails.root, 'config', 'social_keys.yml')
     CONFIG = HashWithIndifferentAccess.new(YAML::load(IO.read(social_keys)))[Rails.env]
+    $keys = {}
     CONFIG.each do |k,v|
-      p k
-      p v
-      ENV[k.upcase] ||= v
+      $keys[k.upcase] ||= v
     end
 
   end

@@ -1,5 +1,3 @@
-# Use this hook to configure devise mailer, warden hooks and so forth.
-# Many of these configuration options can be set straight in your model.
 Devise.setup do |config|
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
@@ -91,7 +89,7 @@ Devise.setup do |config|
   #
   # Limiting the stretches to just one in testing will increase the performance of
   # your test suite dramatically. However, it is STRONGLY RECOMMENDED to not use
-  # a value less than 10 in other environments.
+  # a value less than 10 in other social_keyironments.
   config.stretches = Rails.env.test? ? 1 : 10
 
   # Setup a pepper to generate the encrypted password.
@@ -226,23 +224,23 @@ Devise.setup do |config|
   require 'devise/orm/active_record'
 
   config.sign_out_via = :get
-  config.omniauth :facebook, ENV["FACEBOOK_KEY"], ENV["FACEBOOK_SECRET"], { 
+  config.omniauth :facebook, $keys["FACEBOOK_KEY"], $keys["FACEBOOK_SECRET"], { 
     :scope => 'email, offline_access', :client_options => {
       :ssl => {:ca_file => '/usr/lib/ssl/certs/ca-certificates.crt'}
     }
   }
-  config.omniauth :twitter, ENV["TWITTER_KEY"], ENV["TWITTER_SECRET"], { 
+  config.omniauth :twitter, $keys["TWITTER_KEY"], $keys["TWITTER_SECRET"], { 
     :scope => 'r_fullprofile, r_emailaddress', :client_options => {
       :ssl => {:ca_file => '/usr/lib/ssl/certs/ca-certificates.crt'}
     }
   }
-  config.omniauth :linkedin, ENV["LINKEDIN_KEY"], ENV["LINKEDIN_SECRET"], { 
+  config.omniauth :linkedin, $keys["LINKEDIN_KEY"], $keys["LINKEDIN_SECRET"], { 
     :scope => 'r_fullprofile r_emailaddress', :client_options => {
       :ssl => {:ca_file => '/usr/lib/ssl/certs/ca-certificates.crt'}
     }
   }
-  config.omniauth :github, ENV['GITHUB_KEY'], ENV['GITHUB_SECRET'], scope: "user, public_repo"
-  config.omniauth :google_oauth2, ENV['GOOGLE_KEY'], ENV['GOOGLE_SECRET'], {}
+  config.omniauth :github, $keys['GITHUB_KEY'], $keys['GITHUB_SECRET'], scope: "user, public_repo"
+  config.omniauth :google_oauth2, $keys['GOOGLE_KEY'], $keys['GOOGLE_SECRET'], {}
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
