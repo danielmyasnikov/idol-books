@@ -3,27 +3,16 @@
   %ol.carousel-indicators
     %li.active{ data_target:"#carousel-example-generic", 'data-slide-to' => "0" } 
     %li{ data_target:"#carousel-example-generic", 'data-slide-to' => "1" }
-    %li{ data_target:"#carousel-example-generic", 'data-slide-to' => "2" }
-
 
   / Wrapper for slides
   .carousel-inner
     .item.active
-      %img{ src:"http://placehold.it/751x150", alt:"...", style:'width:100%; height:150px' }
-      .carousel-caption
+      = cl_image_tag('billie-piper-reading-book', alt: 'girl reading book', effect: :sepia, width: 750, height: 450, style: 'width:100%')
         
     .item
-      %img{ src:"http://placehold.it/751x150", alt:"...", style:'width:100%; height:150px' }
-      .carousel-caption
+      = cl_image_tag('love-book', alt: 'love book', effect: :sepia, width: 750, height: 450, style: 'width:100%')
+      .carousel-caption Some text?
       
-    .item
-      %img{ src:"http://placehold.it/751x150", alt:"...", style:'width:100%; height:150px' }
-      .carousel-caption
-    
-    .item
-      %img{ src:"http://placehold.it/351x150", alt:"...", style:'width:100%; height:150px' }
-      .carousel-caption
-    
   / Controls
   %a.left.carousel-control{ href:"#carousel-example-generic", role:"button", 'data-slide' => "prev" }
     %span.glyphicon.glyphicon-chevron-left

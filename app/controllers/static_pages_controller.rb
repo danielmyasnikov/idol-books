@@ -3,11 +3,12 @@ class StaticPagesController < ApplicationController
   end
 
   def sign_up
-    # @user = User.new
     render :partial => 'users/registrations/form'
   end
 
-
   def tour
+  end
+
+  def privacy_policy
   end
 end

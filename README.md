@@ -99,3 +99,10 @@ Client secret:
 Redirect URIs:  https://localhost:3000/users/auth/google_oauth2/callback
 JavaScript origins: https://localhost:3000
 ```
+
+== Findings:
+
+Facebook would not approve the app for submission if the app doesn't have:
+* Avatar
+* Real / Valid Privacy policy URL
+* Valid contact email

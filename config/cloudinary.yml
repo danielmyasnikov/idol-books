@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: danielmyasnikov
+  api_key: '229851249226345'
+  api_secret: 0OyJCwPi6VfWLf-vGFXRCofaOpU
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: danielmyasnikov
+  api_key: '229851249226345'
+  api_secret: 0OyJCwPi6VfWLf-vGFXRCofaOpU
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: danielmyasnikov
+  api_key: '229851249226345'
+  api_secret: 0OyJCwPi6VfWLf-vGFXRCofaOpU
+  enhance_image_tag: true
+  static_image_support: false

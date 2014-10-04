@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+.shelf-effect {
+  background-color: #33291F;
+}
+
+.white { color: white !important; }
+
+.larger-padding {
+  padding: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
