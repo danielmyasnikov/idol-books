@@ -106,3 +106,36 @@ Facebook would not approve the app for submission if the app doesn't have:
 * Avatar
 * Real / Valid Privacy policy URL
 * Valid contact email
+
+OMNI AUTH REDIRECT URL PARAMS (you might want to grab params as secret and tokens so you can update the user later on):
+Facebook:
+Parameters: {"code"=>"AQDJmsDIWdBT3okYm8ShJG0wb7PAOV5O_xUOHtiCkBPF-EqNuQAYAeiRhNwHMHkbIEwINiO0uY9McM1JIJ9ElQgbAx1wRU8TCvUt3z2pG5TWmIZb5fgrpNIYDDf4tw4SzZiLUSoysvv_xPMfwF5_ree4RU4XEVwUBaPAHy0JX7nvpFnpQQsOX43z4xd_6e2Vs-Vb9BjqhJh7iI4MdHPL-ro_Hed_ASCyymePZupUuJcGaH5E0dO_r0VQqwpyd8GiBA6XU5Iiki9Cq4mqtLrBDeM-CfivVovfawmsEWBECq6yCVx9jOF5170U1Iq4De7n2JmRvZing7_HJMxuqwr0rHeR", "state"=>"9d2dca704c4f52314cefedd14aa3dea4ab5726081dce86f2"}
+
+Twitter:
+Parameters: {"oauth_token"=>"jfiIDLa8E2B74iZGh9Cyo2X4Y8tYGUMV", "oauth_verifier"=>"3n3l4GRteC3MAOmVCuAMEqrl07h9DFmF"}
+
+LinkedIN:
+Parameters: {"oauth_token"=>"75--e267aa90-d28e-4bd7-a6bb-c15a48f12a03", "oauth_verifier"=>"62247"}
+
+With some OmniAuth useful params
+```
+:oauth_expires_in=>"5183998"
+emailAddress="daniel.g.myasnikov@gmail.com"
+firstName="Dan"
+headline="Ruby on Rails Developer at RedAnt Pty Ltd" 
+industry="Information Technology and Services"
+lastName="Myasnikov"
+country=#<OmniAuth::AuthHash code="au"> name="Sydney, Australia"> 
+pictureUrl="https://media.licdn.com/mpr/mprx/0_IUM7SeQEU07kfkiEIpspSoFoBYH57C1EWySrSovveUpvK6XobgW_iE3UMres25-QoZUlCSFoXPE4"
+```
+
+GitHub:
+```
+{"code"=>"9ea485b69e48e3b99544", "state"=>"6f3334cfcda983917a49e9db85d8c419fbd766628fe24bd3"}
+```
+
+Google Plus:
+```
+{"state"=>"0d269d4d5d5cb4858fbee5f7b9444b02b02a6af9dbaf0355", "code"=>"4/oZ028SuQLley2WoGynkCmxiKOeNa.Uk1TSGUuz9obgrKXntQAax34dXm0kQI"}
+```
+

@@ -32,6 +32,7 @@ gem 'simple_form'
 
 group :development, :test do
   gem 'byebug'
+  gem 'html2haml'
   #gem 'annotate'
   #gem 'better_errors'
   #gem 'binding_of_caller'
