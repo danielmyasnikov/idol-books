@@ -1,11 +1,21 @@
 class User < ActiveRecord::Base
+
+  delegate *Authorization.delegate_names, to: :first_authorization
+
+  def first_authorization
+    authorizations.first
+  end
+
+  extend FriendlyId
+  friendly_id :username, use: :slugged
+  
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
-
   devise :database_authenticatable, :registerable,
       :recoverable, :rememberable, :trackable, :validatable, :omniauthable
   validates_presence_of :email
-  # mount_uploader :image, ImageUploader
+
+  mount_uploader :image, ImageUploader
 
   has_many :authorizations
 

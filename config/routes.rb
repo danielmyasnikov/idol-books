@@ -6,9 +6,5 @@ Rails.application.routes.draw do
   resources :users
 
   get 'sign-up', to: 'static_pages#sign_up'
-  #get 'sign-up', to: 'static_pages#sign_up'
-  #get 'sign-up', to: 'static_pages#sign_up'
-  #get 'sign-up', to: 'static_pages#sign_up'
-  #get 'sign-up', to: 'static_pages#sign_up'
-  #get 'sign-up', to: 'static_pages#sign_up'
+  get  '/*profile', to: 'profiles#show', as: :profile
 end

@@ -1,0 +1,19 @@
+!!! 5
+%html
+  %head
+    %title Idol Books
+
+    %link{ rel: "stylesheet", href: "https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" }
+
+    = stylesheet_link_tag :app
+
+  %body
+    = render :partial => 'layouts/partials/app_navigation'
+    .contaier
+      .col-md-4
+        = render :partial => 'layouts/partials/side_nav'
+      .col-md-8
+        = yield
+    = render :partial => 'layouts/partials/footer'
+
+  = javascript_include_tag :app

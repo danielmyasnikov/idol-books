@@ -11,6 +11,7 @@ gem 'spring',        group: :development
 
 gem 'haml'
 gem 'cloudinary'
+
 # social
 gem 'socialization'
 
@@ -18,7 +19,7 @@ gem 'devise'
 gem 'carrierwave'
 gem 'twitter'
 gem 'json'
-gem 'airbrake'
+
 gem 'koala'
 gem 'linkedin'
 gem 'omniauth'
@@ -30,6 +31,8 @@ gem 'omniauth-linkedin'
 gem 'omniauth-twitter'
 gem 'simple_form'
 
+gem 'friendly_id'
+
 group :development, :test do
   gem 'byebug'
   gem 'html2haml'
@@ -38,8 +41,8 @@ group :development, :test do
   #gem 'binding_of_caller'
   #gem 'brakeman', :require => false
   #gem 'bullet'
-  #gem 'debugger'
-  #gem 'factory_girl_rails' # https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md
+  # gem 'debugger'
+  gem 'factory_girl_rails' # https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md
   #gem 'faker' # http://rubydoc.info/github/stympy/faker/master/frames
   #gem 'flay'
   #gem 'hirb'
@@ -56,7 +59,7 @@ group :development, :test do
   #gem 'rails_best_practices'
   #gem 'reek'
   #gem 'request-log-analyzer'
-  #gem 'rspec-rails' # https://github.com/rspec/rspec-rails
+  gem 'rspec-rails' # https://github.com/rspec/rspec-rails
   #gem 'selenium-webdriver'
   #gem 'traceroute'
   #gem 'xray-rails'
