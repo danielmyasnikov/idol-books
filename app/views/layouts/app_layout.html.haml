@@ -8,43 +8,17 @@
             %meta{:content => "", :name => "author"}
               %title ThemeKit - Modern UI Kits for Apps &amp; Websites
               / App Styling Bundle
-              = stylesheet_link_tag 'default.min.css'
+              = stylesheet_link_tag 'brown.css'
                 
               /%script{ src: "https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" }
               /%script{ src: "https://oss.maxcdn.com/respond/1.4.2/respond.min.js" }
   %body
     / Fixed navbar
-    .navbar.navbar-main.navbar-default.navbar-fixed-top{:role => "navigation"}
+    .navbar.navbar-main.navbar-default{:role => "navigation"}
       .container-fluid
         %a#toggle-sidebar-menu.visible-xs{"data-toggle" => "sidebar-menu", :href => "#"}
           %i.fa.fa-bars.fa-2x
-        %ul.nav.navbar-nav.hidden-xs
-          / Notifications
-          %li.dropdown.notifications
-            %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
-              %i.icon-envelope-1
-            %ul.dropdown-menu
-              %li.media
-                %a.pull-left{:href => "#"}
-                  %img.media-object.thumb{:alt => "people", :src => "assets/people/50/guy-2.jpg"}
-                .media-body
-                  %span.label.label-default.pull-right 5 min
-                  %h5.media-heading Adrian D.
-                  %p.margin-none Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              %li.media
-                %a.pull-left{:href => "#"}
-                  %img.media-object.thumb{:alt => "people", :src => "assets/people/50/woman-7.jpg"}
-                .media-body
-                  %span.label.label-default.pull-right 2 days
-                  %h5.media-heading Jane B.
-                  %p.margin-none Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              %li.media
-                %a.pull-left{:href => "#"}
-                  %img.media-object.thumb{:alt => "people", :src => "assets/people/50/guy-8.jpg"}
-                .media-body
-                  %span.label.label-default.pull-right 3 days
-                  %h5.media-heading Andrew M.
-                  %p.margin-none Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        
         %ul.nav.navbar-nav.navbar-user
           / User
           %li.dropdown
@@ -66,29 +40,6 @@
               %i.icon-search
             %input.form-control{:placeholder => "Search a friend", :type => "text"}
           .pull-left.visible-md.visible-lg{"data-placement" => "bottom", "data-toggle" => "tooltip", :title => "A few Color Examples. Download includes CSS Files for all color examples & the tools to Generate any Color combination. This Color-Switcher is for previewing purposes only."}
-            %ul.skins
-              %li
-                %span{"data-skin" => "default", :style => "background: #16ae9f "}
-              %li
-                %span{"data-skin" => "orange", :style => "background: #e74c3c "}
-              %li
-                %span{"data-skin" => "blue", :style => "background: #4687ce "}
-              %li
-                %span{"data-skin" => "purple", :style => "background: #af86b9 "}
-              %li
-                %span{"data-skin" => "brown", :style => "background: #c3a961 "}
-        %ul.nav.navbar-nav.navbar-right
-          %li.alert.hidden-xs
-            %a{"data-hide" => "", "data-toggle" => "chat-box", :href => "#"}
-              %span.hidden-sm
-                New message from
-                %strong Jonathan
-              %span.visible-sm
-                New
-                %strong message
-          %li.pull-right
-            %a{"data-toggle" => "sidebar-chat", :href => "#"}
-              %i.fa.fa-comments
     
     .sidebar.right
       .chat-search

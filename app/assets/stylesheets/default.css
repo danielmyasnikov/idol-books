@@ -16,11 +16,11 @@
 
 @font-face {
   font-family: "picto-foundry-arrows";
-  src: url("../fonts/picto-foundry-arrows.eot");
-  src: url("../fonts/picto-foundry-arrows.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/picto-foundry-arrows.woff") format("woff"),
-       url("../fonts/picto-foundry-arrows.ttf") format("truetype"),
-       url("../fonts/picto-foundry-arrows.svg#picto-foundry-arrows") format("svg");
+  src: url("../assets/picto-foundry-arrows.eot");
+  src: url("../assets/picto-foundry-arrows.eot?#iefix") format("embedded-opentype"),
+       url("../assets/picto-foundry-arrows.woff") format("woff"),
+       url("../assets/picto-foundry-arrows.ttf") format("truetype"),
+       url("../assets/picto-foundry-arrows.svg#picto-foundry-arrows") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -173,11 +173,11 @@
 /* Clothing */
 @font-face {
   font-family: "picto-foundry-clothing";
-  src: url("../fonts/picto-foundry-clothing.eot");
-  src: url("../fonts/picto-foundry-clothing.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/picto-foundry-clothing.woff") format("woff"),
-       url("../fonts/picto-foundry-clothing.ttf") format("truetype"),
-       url("../fonts/picto-foundry-clothing.svg#picto-foundry-clothing") format("svg");
+  src: url("../assets/picto-foundry-clothing.eot");
+  src: url("../assets/picto-foundry-clothing.eot?#iefix") format("embedded-opentype"),
+       url("../assets/picto-foundry-clothing.woff") format("woff"),
+       url("../assets/picto-foundry-clothing.ttf") format("truetype"),
+       url("../assets/picto-foundry-clothing.svg#picto-foundry-clothing") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -313,11 +313,11 @@
 /* Emotions */
 @font-face {
   font-family: "picto-foundry-emotions";
-  src: url("../fonts/picto-foundry-emotions.eot");
-  src: url("../fonts/picto-foundry-emotions.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/picto-foundry-emotions.woff") format("woff"),
-       url("../fonts/picto-foundry-emotions.ttf") format("truetype"),
-       url("../fonts/picto-foundry-emotions.svg#picto-foundry-emotions") format("svg");
+  src: url("../assets/picto-foundry-emotions.eot");
+  src: url("../assets/picto-foundry-emotions.eot?#iefix") format("embedded-opentype"),
+       url("../assets/picto-foundry-emotions.woff") format("woff"),
+       url("../assets/picto-foundry-emotions.ttf") format("truetype"),
+       url("../assets/picto-foundry-emotions.svg#picto-foundry-emotions") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -454,11 +454,11 @@
 
 @font-face {
   font-family: "picto-foundry-food";
-  src: url("../fonts/picto-foundry-food.eot");
-  src: url("../fonts/picto-foundry-food.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/picto-foundry-food.woff") format("woff"),
-       url("../fonts/picto-foundry-food.ttf") format("truetype"),
-       url("../fonts/picto-foundry-food.svg#picto-foundry-food") format("svg");
+  src: url("../assets/picto-foundry-food.eot");
+  src: url("../assets/picto-foundry-food.eot?#iefix") format("embedded-opentype"),
+       url("../assets/picto-foundry-food.woff") format("woff"),
+       url("../assets/picto-foundry-food.ttf") format("truetype"),
+       url("../assets/picto-foundry-food.svg#picto-foundry-food") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -592,11 +592,11 @@
 /* General */
 @font-face {
   font-family: "picto-foundry-general";
-  src: url("../fonts/picto-foundry-general.eot");
-  src: url("../fonts/picto-foundry-general.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/picto-foundry-general.woff") format("woff"),
-       url("../fonts/picto-foundry-general.ttf") format("truetype"),
-       url("../fonts/picto-foundry-general.svg#picto-foundry-general") format("svg");
+  src: url("../assets/picto-foundry-general.eot");
+  src: url("../assets/picto-foundry-general.eot?#iefix") format("embedded-opentype"),
+       url("../assets/picto-foundry-general.woff") format("woff"),
+       url("../assets/picto-foundry-general.ttf") format("truetype"),
+       url("../assets/picto-foundry-general.svg#picto-foundry-general") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -972,11 +972,11 @@
 /* Household */
 @font-face {
   font-family: "picto-foundry-household";
-  src: url("../fonts/picto-foundry-household.eot");
-  src: url("../fonts/picto-foundry-household.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/picto-foundry-household.woff") format("woff"),
-       url("../fonts/picto-foundry-household.ttf") format("truetype"),
-       url("../fonts/picto-foundry-household.svg#picto-foundry-household") format("svg");
+  src: url("../assets/picto-foundry-household.eot");
+  src: url("../assets/picto-foundry-household.eot?#iefix") format("embedded-opentype"),
+       url("../assets/picto-foundry-household.woff") format("woff"),
+       url("../assets/picto-foundry-household.ttf") format("truetype"),
+       url("../assets/picto-foundry-household.svg#picto-foundry-household") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1114,11 +1114,11 @@
 /* Medical Science */
 @font-face {
   font-family: "picto-foundry-medical-science";
-  src: url("../fonts/picto-foundry-medical-science.eot");
-  src: url("../fonts/picto-foundry-medical-science.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/picto-foundry-medical-science.woff") format("woff"),
-       url("../fonts/picto-foundry-medical-science.ttf") format("truetype"),
-       url("../fonts/picto-foundry-medical-science.svg#picto-foundry-medical-science") format("svg");
+  src: url("../assets/picto-foundry-medical-science.eot");
+  src: url("../assets/picto-foundry-medical-science.eot?#iefix") format("embedded-opentype"),
+       url("../assets/picto-foundry-medical-science.woff") format("woff"),
+       url("../assets/picto-foundry-medical-science.ttf") format("truetype"),
+       url("../assets/picto-foundry-medical-science.svg#picto-foundry-medical-science") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1258,11 +1258,11 @@
 /* Multimedia */
 @font-face {
   font-family: "picto-foundry-multimedia";
-  src: url("../fonts/picto-foundry-multimedia.eot");
-  src: url("../fonts/picto-foundry-multimedia.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/picto-foundry-multimedia.woff") format("woff"),
-       url("../fonts/picto-foundry-multimedia.ttf") format("truetype"),
-       url("../fonts/picto-foundry-multimedia.svg#picto-foundry-multimedia") format("svg");
+  src: url("../assets/picto-foundry-multimedia.eot");
+  src: url("../assets/picto-foundry-multimedia.eot?#iefix") format("embedded-opentype"),
+       url("../assets/picto-foundry-multimedia.woff") format("woff"),
+       url("../assets/picto-foundry-multimedia.ttf") format("truetype"),
+       url("../assets/picto-foundry-multimedia.svg#picto-foundry-multimedia") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1458,11 +1458,11 @@
 
 @font-face {
   font-family: "picto-foundry-nature";
-  src: url("../fonts/picto-foundry-nature.eot");
-  src: url("../fonts/picto-foundry-nature.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/picto-foundry-nature.woff") format("woff"),
-       url("../fonts/picto-foundry-nature.ttf") format("truetype"),
-       url("../fonts/picto-foundry-nature.svg#picto-foundry-nature") format("svg");
+  src: url("../assets/picto-foundry-nature.eot");
+  src: url("../assets/picto-foundry-nature.eot?#iefix") format("embedded-opentype"),
+       url("../assets/picto-foundry-nature.woff") format("woff"),
+       url("../assets/picto-foundry-nature.ttf") format("truetype"),
+       url("../assets/picto-foundry-nature.svg#picto-foundry-nature") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1602,11 +1602,11 @@
 /* Shopping - Finance */
 @font-face {
   font-family: "picto-foundry-shopping-finance";
-  src: url("../fonts/picto-foundry-shopping-finance.eot");
-  src: url("../fonts/picto-foundry-shopping-finance.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/picto-foundry-shopping-finance.woff") format("woff"),
-       url("../fonts/picto-foundry-shopping-finance.ttf") format("truetype"),
-       url("../fonts/picto-foundry-shopping-finance.svg#picto-foundry-shopping-finance") format("svg");
+  src: url("../assets/picto-foundry-shopping-finance.eot");
+  src: url("../assets/picto-foundry-shopping-finance.eot?#iefix") format("embedded-opentype"),
+       url("../assets/picto-foundry-shopping-finance.woff") format("woff"),
+       url("../assets/picto-foundry-shopping-finance.ttf") format("truetype"),
+       url("../assets/picto-foundry-shopping-finance.svg#picto-foundry-shopping-finance") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1746,11 +1746,11 @@
 /* Sports */
 @font-face {
   font-family: "picto-foundry-sports";
-  src: url("../fonts/picto-foundry-sports.eot");
-  src: url("../fonts/picto-foundry-sports.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/picto-foundry-sports.woff") format("woff"),
-       url("../fonts/picto-foundry-sports.ttf") format("truetype"),
-       url("../fonts/picto-foundry-sports.svg#picto-foundry-sports") format("svg");
+  src: url("../assets/picto-foundry-sports.eot");
+  src: url("../assets/picto-foundry-sports.eot?#iefix") format("embedded-opentype"),
+       url("../assets/picto-foundry-sports.woff") format("woff"),
+       url("../assets/picto-foundry-sports.ttf") format("truetype"),
+       url("../assets/picto-foundry-sports.svg#picto-foundry-sports") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1893,11 +1893,11 @@
 /* Navigation */
 @font-face {
   font-family: "picto-foundry-vehicle-navigation";
-  src: url("../fonts/picto-foundry-vehicle-navigation.eot");
-  src: url("../fonts/picto-foundry-vehicle-navigation.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/picto-foundry-vehicle-navigation.woff") format("woff"),
-       url("../fonts/picto-foundry-vehicle-navigation.ttf") format("truetype"),
-       url("../fonts/picto-foundry-vehicle-navigation.svg#picto-foundry-vehicle-navigation") format("svg");
+  src: url("../assets/picto-foundry-vehicle-navigation.eot");
+  src: url("../assets/picto-foundry-vehicle-navigation.eot?#iefix") format("embedded-opentype"),
+       url("../assets/picto-foundry-vehicle-navigation.woff") format("woff"),
+       url("../assets/picto-foundry-vehicle-navigation.ttf") format("truetype"),
+       url("../assets/picto-foundry-vehicle-navigation.svg#picto-foundry-vehicle-navigation") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -2041,11 +2041,11 @@
 /* Weather */
 @font-face {
   font-family: "picto-foundry-weather";
-  src: url("../fonts/picto-foundry-weather.eot");
-  src: url("../fonts/picto-foundry-weather.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/picto-foundry-weather.woff") format("woff"),
-       url("../fonts/picto-foundry-weather.ttf") format("truetype"),
-       url("../fonts/picto-foundry-weather.svg#picto-foundry-weather") format("svg");
+  src: url("../assets/picto-foundry-weather.eot");
+  src: url("../assets/picto-foundry-weather.eot?#iefix") format("embedded-opentype"),
+       url("../assets/picto-foundry-weather.woff") format("woff"),
+       url("../assets/picto-foundry-weather.ttf") format("truetype"),
+       url("../assets/picto-foundry-weather.svg#picto-foundry-weather") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -3535,8 +3535,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../assets/glyphicons-halflings-regular.eot');
+  src: url('../assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../assets/glyphicons-halflings-regular.woff') format('woff'), url('../assets/glyphicons-halflings-regular.ttf') format('truetype'), url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -9411,8 +9411,8 @@ button.close {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  src: url('../assets/fontawesome-webfont.eot?v=4.2.0');
+  src: url('../assets/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../assets/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../assets/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../assets/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -11444,7 +11444,6 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 body {
-  padding-top: 71px;
   position: relative;
 }
 h1,
