@@ -1,0 +1,31 @@
+%nav.navbar-default.shelf-effect.larger-padding{ role: "navigation" }
+  .container-fluid
+    .navbar-header
+      %a.navbar-brand{ href:"#" }
+        = cl_image_tag("daniel", :width => 150, :height => 150, :crop => :thumb, :gravity => :face)
+      
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          %form{ role: 'form' }
+            .form-group
+              %input{ type: "password", class: "form-control", id: "exampleInputPassword1",placeholder: "Password" }
+        %li
+          %a.white{ href:"#" } Tour
+        %li
+          %a.white{ href:"#" } Sign up
+        %li
+          %a.white{ href:"#" } Login
+        / %li.dropdown
+        /   %a.dropdown-toggle{ href:"#", 'data-toggle' => "dropdown" }
+        /     Dropdown
+        /     %span{:class => 'caret'}
+        /   %ul.dropdown-menu{ role: "menu" }
+        /     %li
+        /       %a{ href:"#" } Action
+        /     %li
+        /       %a{ href: "#" } Another action
+        /     %li
+        /       %a{ href:"#" } Something else here
+        /     %li.divider
+        /     %li
+        /       %a{ href:"#" }>Separated link
