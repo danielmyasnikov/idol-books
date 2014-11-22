@@ -1,0 +1,51 @@
+.cover.profile
+  .wrapper
+    .image
+      = cl_image_tag("book-sunset_ustrxf.jpg")
+    %ul.friends
+      %li
+        %a{:href => "#"}
+          = cl_image_tag("vika_jxjlbu.jpg", :width => 100, :height => 100, :crop => :fill, :class => "img-responsive")
+      %li
+        %a{:href => "#"}
+          = cl_image_tag("pierre_tkemg1.jpg", :width => 100, :height => 100, :crop => :fill, :class => "img-responsive")
+      %li
+        %a{:href => "#"}
+          = cl_image_tag("nina_uashxx.jpg", :width => 100, :height => 100, :crop => :fill, :class => "img-responsive")
+      %li
+        %a{:href => "#"}
+          = cl_image_tag("olga_maria_eys2j1.jpg", :width => 100, :height => 100, :crop => :fill, :class => "img-responsive")
+      %li
+        %a{:href => "#"}
+          %img.img-responsive{:alt => "people", :src => "assets/people/110/guy-9.jpg"}
+      %li
+        %a{:href => "#"}
+          = cl_image_tag("arash_vbizpj.jpg", :width => 100, :height => 100, :crop => :fill, :class => "img-responsive")
+      %li
+        %a{:href => "#"}
+          = cl_image_tag("burik_c8x9j2.jpg", :width => 100, :height => 100, :crop => :fill, :class => "img-responsive")
+      %li
+        %a{:href => "#"}
+          = cl_image_tag("vitaly_y2d1hy.jpg", :width => 100, :height => 100, :crop => :fill, :class => "img-responsive")
+      %li
+        %a.group{:href => "#"}
+          %i.fa.fa-group
+  .cover-info
+    .avatar
+      = cl_image_tag("daniel.jpg", :crop => :fill, width: 100, height: 100, :gravity => :faces)
+    .name
+      %a{:href => "#"}
+        Daniel M.
+    %ul.cover-nav
+      %li.active
+        %a{:href => "index.html"}
+          %i.fa.fa-fw.icon-ship-wheel
+          Timeline
+      %li
+        %a{:href => "user-public-profile.html"}
+          %i.fa.fa-fw.icon-user-1
+          About
+      %li
+        %a{:href => "user-public-users.html"}
+          %i.fa.fa-fw.fa-users
+          Friends

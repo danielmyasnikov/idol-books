@@ -1,0 +1,53 @@
+.timeline-block
+  .panel.panel-default
+    .panel-heading
+      .media
+        %a.pull-left{:href => ""}
+          %img.media-object{:src => "assets/people/50/woman-5.jpg"}
+        .media-body
+          %a.pull-right.text-muted{:href => "#"}
+            %i.icon-reply-all-fill.fa.fa-2x
+          %a{:href => ""} Mary
+          %span on 15th January, 2014
+    .panel-body
+      %p Late Night Show Photos
+      .timeline-added-images
+        %img{:src => "assets/social/100/1.jpg", :width => "80"}
+          %img{:src => "assets/social/100/2.jpg", :width => "80"}
+            %img{:src => "assets/social/100/3.jpg", :width => "80"}
+    .view-all-comments
+      %a{:href => "#"}
+        %i.fa.fa-comments-o
+        View all
+      10 comments
+    %ul.comments
+      %li
+        .media
+          %a.pull-left{:href => ""}
+            %img.media-object{:src => "/assets/people/50/guy-5.jpg"}
+          .media-body
+            %a.comment-author{:href => ""} Bill D.
+            %span Hi Mary, Nice Party
+            .comment-date 21st September
+      %li
+        .media
+          %a.pull-left{:href => ""}
+            %img.media-object{:src => "assets/people/50/woman-5.jpg"}
+          .media-body
+            %a.comment-author{:href => ""} Mary
+            %span Thanks Bill
+            .comment-date 2 days
+      %li
+        .media
+          %a.pull-left{:href => ""}
+            %img.media-object{:src => "/assets/people/50/guy-5.jpg"}
+          .media-body
+            %a.comment-author{:href => ""} Bill D.
+            %span What time did it finish?
+            .comment-date 14 min
+      %li.comment-form
+        .input-group
+          %input.form-control{:type => "text"}/
+          %span.input-group-addon
+            %a{:href => ""}
+              %i.fa.fa-photo

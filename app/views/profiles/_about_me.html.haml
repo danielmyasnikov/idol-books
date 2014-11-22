@@ -1,0 +1,36 @@
+.media-object.pull-left
+  .panel.panel-default.profile-user-box
+    .panel-heading.panel-heading.title
+      About ME
+    .avatar
+      = cl_image_tag("daniel.jpg", :crop => :fill, width: 100, height: 100, :gravity => :faces, class: 'img-circle')
+      %h3 Daniel M.
+      %a.btn.btn-success{:href => "#"}
+        Following
+        %i.fa.fa-check-circle.fa-fw
+    %p
+      Hi! I'm Daniel the Ruby On Rails Developer.
+      I Hope you will enjoy my new social network.
+    .profile-icons
+      %span
+        %i.fa.fa-users
+        372
+      %span
+        %i.fa.fa-photo
+        43
+      %span
+        %i.fa.fa-video-camera
+        3
+  / Contact
+  .panel.panel-default
+    
+    %ul.icon-list.block.bordered
+      %li
+        %i.fa.fa-envelope.fa-fw
+        %a{:href => "#"} daniel.myasnikov@gmail.com
+      %li
+        %i.fa.fa-facebook.fa-fw
+        %a{:href => "#"} /callme.dan.5
+      %li
+        %i.fa.fa-twitter.fa-fw
+        %a{:href => "#"} /user

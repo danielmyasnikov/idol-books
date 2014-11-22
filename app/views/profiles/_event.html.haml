@@ -1,0 +1,47 @@
+.timeline-block
+  .panel.panel-default.event
+    .panel-heading.title
+      50 Shades of Gray. Book Presentation
+    %ul.list-group
+      %li.list-group-item
+        %i.fa.fa-globe
+        Miami, FL
+      %li.list-group-item
+        %i.fa.fa-calendar-o
+        = 5.days.from_now.strftime("%e %B %Y")
+      %li.list-group-item
+        %i.fa.fa-clock-o
+        = 4.hours.from_now.strftime("%H:%M %p")
+      %li.list-group-item
+        %i.fa.fa-users
+        9 Attendees
+        %a.btn.btn-primary.btn-xs.pull-right{:href => "#"} Attend
+    %ul.list-unstyled.attendees
+      %li
+        %a{:href => "#"}
+          %img.img-responsive{:alt => "people", :src => "assets/people/110/guy-6.jpg"}/
+      %li
+        %a{:href => "#"}
+          %img.img-responsive{:alt => "people", :src => "assets/people/110/woman-3.jpg"}/
+      %li
+        %a{:href => "#"}
+          %img.img-responsive{:alt => "people", :src => "assets/people/110/guy-2.jpg"}/
+      %li
+        %a{:href => "#"}
+          %img.img-responsive{:alt => "people", :src => "assets/people/110/guy-9.jpg"}/
+      %li
+        %a{:href => "#"}
+          %img.img-responsive{:alt => "people", :src => "assets/people/110/woman-9.jpg"}/
+      %li
+        %a{:href => "#"}
+          %img.img-responsive{:alt => "people", :src => "assets/people/110/guy-4.jpg"}/
+      %li
+        %a{:href => "#"}
+          %img.img-responsive{:alt => "people", :src => "assets/people/110/guy-1.jpg"}/
+      %li
+        %a{:href => "#"}
+          %img.img-responsive{:alt => "people", :src => "assets/people/110/woman-4.jpg"}/
+      %li
+        %a{:href => "#"}
+          %img.img-responsive{:alt => "people", :src => "assets/people/110/guy-6.jpg"}/
+    .clearfix

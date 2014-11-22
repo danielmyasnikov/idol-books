@@ -1,0 +1,118 @@
+.timeline.row{"data-toggle" => "gridalicious"}
+  .timeline-block
+    .panel.panel-default.share
+      .panel-heading.panel-heading.title
+        News
+      .panel-body
+        %textarea.form-control.share-text{:name => "status", :placeholder => "Share your status...", :rows => "3"}
+      .panel-footer.share-buttons
+        %a{:href => "#"}
+          %i.fa.fa-map-marker
+        %a{:href => "#"}
+          %i.fa.fa-photo
+        %a{:href => "#"}
+          %i.fa.fa-video-camera
+        %button.btn.btn-primary.btn-xs.pull-right.display-none{:href => "#", :type => "submit"} Post
+
+  = render partial: 'current_book'
+  = render partial: 'post'
+  = render partial: 'friends_news'
+  = render partial: 'past_event'
+  .timeline-block
+    .panel.panel-default
+      .panel-heading
+        .media
+          %a.pull-left{:href => ""}
+            %img.media-object{:src => "/assets/people/50/guy-5.jpg"}
+          .media-body
+            %a.pull-right.text-muted{:href => "#"}
+              %i.icon-reply-all-fill.fa.fa-2x
+            %a{:href => ""} Bill
+            %span on 15th January, 2014
+      %img.img-responsive{:src => "assets/place1-full.jpg"}
+        %ul.comments
+          %li
+            .media
+              %a.pull-left{:href => ""}
+                %img.media-object{:src => "assets/people/50/woman-5.jpg"}
+              .media-body
+                %a.comment-author{:href => ""} Mary
+                %span Wow
+                .comment-date 2 days
+          %li.comment-form
+            .input-group
+              %input.form-control{:type => "text"}/
+              %span.input-group-addon
+                %a{:href => ""}
+                  %i.fa.fa-photo
+  .timeline-block
+    .panel.panel-default
+      .panel-heading
+        .media
+          %a.pull-left{:href => ""}
+            %img.media-object{:src => "assets/people/50/woman-5.jpg"}
+          .media-body
+            %a.pull-right.text-muted{:href => "#"}
+              %i.icon-reply-all-fill.fa.fa-2x
+            %a{:href => ""} Mary
+            %span on 15th January, 2014
+      .panel-body.text-muted
+        %i.fa.fa-map-marker
+        This library is just awesome
+        %a{:href => "#"} Brooklyn, New York
+      %img.img-responsive{:src => "http://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=370x300&scale=2&maptype=roadmap\n&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318\n&markers=color:red%7Clabel:C%7C40.718217,-73.998284"}
+        .view-all-comments
+          %i.fa.fa-comments-o
+          Be the first to comment
+        %ul.comments
+          %li.comment-form
+            .input-group
+              %input.form-control{:type => "text"}/
+              %span.input-group-addon
+                %a{:href => ""}
+                  %i.fa.fa-photo
+  .timeline-block
+    .panel.panel-default
+      .panel-heading
+        .media
+          %a.pull-left{:href => ""}
+            %img.media-object{:src => "/assets/people/50/guy-5.jpg"}
+          .media-body
+            %a.pull-right.text-muted{:href => "#"}
+              %i.icon-reply-all-fill.fa.fa-2x
+            %a{:href => ""} Bill
+            %span on 15th January, 2014
+      .panel-body
+        Amazing 3D Animation
+      .videoWrapper
+        %iframe{:allowfullscreen => "", :frameborder => "0", :height => "271", :mozallowfullscreen => "", :src => "//player.vimeo.com/video/50522981?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff", :webkitallowfullscreen => "", :width => "500"}
+      .view-all-comments
+        %i.fa.fa-comments-o
+        Be the first to comment
+      %ul.comments
+        %li.comment-form
+          .input-group
+            %input.form-control{:type => "text"}/
+            %span.input-group-addon
+              %a{:href => ""}
+                %i.fa.fa-photo
+  .timeline-block
+    .panel.panel-default.profile
+      .cover-container
+        %img.img-responsive{:alt => "place", :src => "assets/place1-full.jpg"}/
+      .info
+        %h4 Adrian Demian
+        %p Book writer and designer
+      %img.img-circle.avatar{:alt => "people", :src => "assets/people/110/guy-6.jpg"}/
+      .profile-icons
+        %span
+          %i.fa.fa-users
+          372
+        %span
+          %i.fa.fa-photo
+          43
+        %span
+          %i.fa.fa-video-camera
+          3
+      %a.btn.btn-brand-primary.pull-right{:href => "#"}
+        %i.fa.fa-comment

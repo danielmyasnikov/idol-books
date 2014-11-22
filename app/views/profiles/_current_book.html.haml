@@ -1,0 +1,18 @@
+.timeline-block
+  .panel.panel-default.profile-card
+    .panel-body
+      .profile-card-icon
+        %i.fa.fa-book
+      %h4.text-center Currently reading...
+      %ul.profile-card-items
+        %li
+          %i.fa.fa-bars
+          Devils and Angels, page #127
+        %li
+          %i.fa.fa-map-marker
+          Sydney, Australia
+        
+        %li
+          %i.fa.fa-calendar
+          Started on:
+          = 5.days.from_now.strftime("%e %B %Y %H:%M %p")

@@ -1,0 +1,77 @@
+.timeline-block
+  .panel.panel-default
+    .panel-heading
+      .media
+        %a.pull-left{:href => ""}
+          %img.media-object{:src => "assets/people/50/guy-2.jpg"}
+        .media-body
+          %a.pull-right.text-muted{:href => "#"}
+            %i.icon-reply-all-fill.fa.fa-2x
+          %a{:href => ""} Author: Stephen King
+          %span= "on #{5.days.from_now.strftime("%e %B %Y %H:%M %p")}"
+    .panel-body
+      .boxed
+        .row
+          .col-md-8
+            %a.h4.margin-none{:href => "#"} Mr. Mercedes: A Novel
+          .col-md-4.text-right
+            .btn.btn-success
+              .fa.fa-plus
+                To Read
+        .rating.text-left
+          %span.star
+          %span.star.filled
+          %span.star.filled
+          %span.star.filled
+          %span.star.filled
+        .media
+          %a.media-object.pull-left{:href => "#"}
+            %img{:alt => "", :src => "assets/food1.jpg", :width => "80"}/
+          .media-body
+            %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor impedit ipsum laborum maiores tempore veritatis....
+        %ul.icon-list
+          %li
+            %i.fa.fa-star.fa-fw
+            4.8
+          %li
+            %i.fa.fa-clock-o.fa-fw
+            20 min
+          %li
+            %i.fa.fa-graduation-cap.fa-fw
+            Beginner
+    .view-all-comments
+      %a{:href => "#"}
+        %i.fa.fa-comments-o
+        View all
+      10 comments
+    %ul.comments
+      %li
+        .media
+          %a.pull-left{:href => ""}
+            %img.media-object{:src => "/assets/people/50/guy-5.jpg"}
+          .media-body
+            %a.comment-author{:href => ""} Bill D.
+            %span Hi Steph, Nice Novel
+            .comment-date 3 days
+      %li
+        .media
+          %a.pull-left{:href => ""}
+            %img.media-object{:src => "assets/people/50/guy-2.jpg"}
+          .media-body
+            %a.comment-author{:href => ""} Stephen
+            %span Thanks Bill
+            .comment-date 2 days
+      %li
+        .media
+          %a.pull-left{:href => ""}
+            %img.media-object{:src => "/assets/people/50/guy-5.jpg"}
+          .media-body
+            %a.comment-author{:href => ""} Bill D.
+            %span Great Book, takes more than 20 mins to read, but I don't regret
+            .comment-date 14 min
+      %li.comment-form
+        .input-group
+          %input.form-control{:type => "text"}/
+          %span.input-group-addon
+            %a{:href => ""}
+              %i.fa.fa-photo
